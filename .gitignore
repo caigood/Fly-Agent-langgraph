@@ -1,0 +1,35 @@
+# 环境变量（包含敏感信息）
+.env
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 日志文件
+*.log
+
+# 数据库文件（原始文件过大，已压缩）
+travel2.sqlite
+*.db
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 打包文件
+dist/
+build/
+*.egg-info/
